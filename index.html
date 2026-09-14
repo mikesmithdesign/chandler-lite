@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chandler Street Coffee : coffee, pastry and lunch in Redbrook</title>
+<meta name="description" content="Chandler Street Coffee is a small cafe at 3 Chandler Street, Redbrook. Pilot Works coffee, pastry from our own ovens, proper lunch. Two minutes from Redbrook Green station.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Libre+Franklin:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-pack="caramel">
+
+<header class="mast">
+  <div class="wrap">
+    <a class="brand" href="#top">Chandler St. Coffee<i></i></a>
+    <nav class="mnav" aria-label="Main">
+      <a href="#menu">Menu</a>
+      <a href="#story">Our story</a>
+      <a href="#visit">Find us</a>
+    </nav>
+    <div class="mast-right">
+      <span class="statuschip js-status"><span class="led"></span><span class="js-status-text">Checking the door</span></span>
+      <a class="btn mbtn" href="#visit">Find us</a>
+    </div>
+  </div>
+</header>
+
+<!-- hero + ticker pinned together to fill 100svh below the header -->
+<div class="hero-wrap" id="top">
+<section class="hero">
+  <div class="hero-img"><img src="img/hero.jpg" alt="The cafe room, people at the tables under warm pendant lights" fetchpriority="high"></div>
+  <div class="wrap">
+    <h1>Coffee, pastry and lunch at the top of Chandler Street.</h1>
+    <p class="h-sub">Pilot Works coffee, croissants baked fresh in our own ovens. Two minutes from Redbrook Green station.</p>
+    <div class="h-cta">
+      <a class="btn hbtn" href="#menu">See the menu</a>
+      <a class="btn ghost" href="#visit">Find us</a>
+    </div>
+  </div>
+</section>
+
+<!-- live counter strip — pinned to bottom of the 100svh hero-wrap -->
+<div class="fold" aria-label="On the counter right now">
+  <span class="tick" id="tick"><b>Out of the oven this morning</b></span>
+</div>
+</div>
+
+<!-- the counter through the day -->
+<section class="tiles" id="menu">
+  <div class="wrap">
+    <div class="t-head">
+      <h2>The counter changes through the day.</h2>
+    </div>
+    <div class="t-grid">
+      <div class="tile big">
+        <div class="ph"><img src="img/brief-bake.jpg" alt="Croissants fresh on the baking tray"></div>
+        <h3>Mornings</h3>
+        <p>Croissants and cardamom knots, straight from our ovens. They go fast.</p>
+      </div>
+      <div class="t-col">
+        <div class="tile">
+          <div class="ph"><img src="img/essay-3.jpg" alt="A filled baguette sandwich on a plate"></div>
+          <h3>Lunch</h3>
+          <p>Sandwiches, soup and a big green salad, made to&nbsp;order.</p>
+        </div>
+        <div class="tile">
+          <div class="ph"><img src="img/menu-afternoon.jpg" alt="A slice of cake and a flat white by the window"></div>
+          <h3>Afternoons</h3>
+          <p>Cake, banana bread and batch filter coffee.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- story tease -->
+<section class="inside" id="story">
+  <div class="wrap">
+    <div class="in-feature">
+      <div class="ph"><img src="img/tease-story.jpg" alt="Cafe interior with warm hanging bulbs and timber counter"></div>
+      <div class="tx">
+        <h3>The old newsagent at number three</h3>
+        <p>This shop sold Redbrook's papers for forty years. We kept the rack by the door and put two ovens in the back. Coffee comes from Pilot Works across town, pastry is baked here every morning.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- find us : hours + contact -->
+<section class="v-main" id="visit">
+  <div class="wrap v-grid">
+    <figure class="v-fig">
+      <div class="ph"><img src="img/visit-door.jpg" alt="The cafe on its street corner, people at the pavement tables"></div>
+    </figure>
+    <div>
+      <div class="hoursboard">
+        <h2>Find us. Opening hours</h2>
+        <p class="hb-now js-open-msg">Open seven days</p>
+        <div class="hgroup" data-days="1,2,3,4,5"><span class="hd">Monday to Friday</span><span class="ht">7:00 to 16:00</span></div>
+        <div class="hgroup" data-days="6"><span class="hd">Saturday</span><span class="ht">8:00 to 16:00</span></div>
+        <div class="hgroup" data-days="0"><span class="hd">Sunday</span><span class="ht">8:00 to 14:00</span></div>
+      </div>
+      <div class="particulars">
+        <div class="pt">
+          <h3>Address</h3>
+          <p>3 Chandler Street<small>Redbrook RB1 4EN</small></p>
+        </div>
+        <div class="pt">
+          <h3>Phone</h3>
+          <p><a href="tel:+441632960447">01632 960 447</a><small>Long table bookings, cake orders</small></p>
+        </div>
+        <div class="pt">
+          <h3>Email</h3>
+          <p><a href="mailto:hello@chandlerstreetcoffee.co.uk">hello@chandlerstreetcoffee.co.uk</a><small>Anything else</small></p>
+        </div>
+        <div class="pt">
+          <h3>Dogs</h3>
+          <p>Welcome<small>Water bowls by the door</small></p>
+        </div>
+      </div>
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=3+Chandler+Street+Redbrook+RB1+4EN" target="_blank" rel="noopener">Get directions <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <p class="fbrand">Chandler Street Coffee<i></i></p>
+        <p class="fabout">A small cafe at the top of <b>Chandler Street, Redbrook</b>. Coffee by Pilot Works, pastry from our own ovens, papers on the rack by the door since&nbsp;1982.</p>
+      </div>
+      <div>
+        <h4>On this page</h4>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#story">Our story</a></li>
+          <li><a href="#visit">Find us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p class="fvisit"><b>3 Chandler Street</b><br>Redbrook RB1 4EN<br>
+          <a href="tel:+441632960447">01632 960 447</a><br>
+          <a href="mailto:hello@chandlerstreetcoffee.co.uk">hello@chandlerstreetcoffee.co.uk</a><br>
+          <span class="js-open-msg">Open seven days</span></p>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <span>&copy; Chandler Street Coffee 2026</span>
+      <span>A fictional cafe. Free demo theme by Mike Smith Design. Photography is placeholder, replace for production.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="lenis.min.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
