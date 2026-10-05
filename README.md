@@ -39,4 +39,4 @@ lightbox, four curated colour packs with a one-click switcher, a
 newsletter signup, and a JSON data layer so you can rebrand the whole
 site from a handful of files, built as an Astro 7 project.
 
--> https://mikesmithdesign.gumroad.com/l/chandler-astro-theme (£20)
+→ [Chandler, the full Astro theme for cafes and coffee shops](https://mikesmithdesign.co.uk/themes/chandler) (£20)
