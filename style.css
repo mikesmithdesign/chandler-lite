@@ -450,3 +450,6 @@ html.static .fold .tick{animation:none!important}
 .mast .wrap{min-width:0}
 .mast .statuschip{max-width:44vw;overflow:hidden}
 .mast .js-status-text{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* the template credit should read as a link, like the other footer links */
+a[href*="mikesmithdesign.co.uk"]{text-decoration:underline;text-underline-offset:2px}
